@@ -88,10 +88,12 @@ document.addEventListener('DOMContentLoaded', () => {
     menu_bar.addEventListener('click', (e) => {
         e.preventDefault()
         mobile_nav.classList.toggle('mob_flexd')
+        // mobile_nav.classList.toggle('fixed')
+        document.body.classList.toggle('hide')
     })
     lis.forEach(item => {
         item.addEventListener('click', () => {
-
+            document.body.classList.toggle('hide')
             mobile_nav.classList.toggle('mob_flexd')
 
         })

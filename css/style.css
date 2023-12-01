@@ -266,6 +266,12 @@ body {
 .mob_flexd{
   display: flex;
 }
+.fixed{
+  position: sticky;
+}
+.hide{
+  overflow: hidden;
+}
 @media only screen and (max-width: 768px) {
  .nav-ul{
   display: none;
@@ -282,8 +288,8 @@ body {
  }
 .mobile_nav .nav-ul li {
   text-align: center;
-  font-size: 20px;
-  padding-top: 20px;
+  font-size: 24px;
+  padding-top: 30px;
 }
  .i-about{
    flex-direction: column-reverse;
@@ -298,6 +304,7 @@ body {
   width: 270px;
  }
 .i-info h1{
+  margin-top: 24px;
   font-size: 30px;
 }
 .my-skills{
