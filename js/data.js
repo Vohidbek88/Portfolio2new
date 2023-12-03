@@ -128,29 +128,45 @@ const imgs = [
 ];
 
 
-const projects=[
-    {
-        img_src:'./img/mac9.jpg',
-        title:"Calculator",
-        description:"This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
-        tech_stack:"HTML5, CSS3, SASS",
-        link_netlify:"https://smalltube.netlify.app",
-        link_code:"https://github.com/Vohidbek88/MiniTube.git",
-    },
-    {
-        img_src:'./img/mac9.jpg',
-        title:"Calculator",
-        description:"This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
-        tech_stack:"HTML5, CSS3, SASS",
-        link_netlify:"https://smalltube.netlify.app",
-        link_code:"https://github.com/Vohidbek88/MiniTube.git",
-    },
-    {
-        img_src:'./img/mac9.jpg',
-        title:"Calculator",
-        description:"This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
-        tech_stack:"HTML5, CSS3, SASS",
-        link_netlify:"https://smalltube.netlify.app",
-        link_code:"https://github.com/Vohidbek88/MiniTube.git",
-    },
+const projects = [
+  {
+    img_src: './img/vuecalc.png',
+    title: "Calculator app",
+    description: "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
+    tech_stack: "Vue",
+    link_netlify: "https://vuecalcvohid.netlify.app",
+    link_code: "https://github.com/Vohidbek88/vuecalcapp.git",
+  },
+  {
+    img_src: './img/reactweather.png',
+    title: "Weather app.",
+    description: "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
+    tech_stack: "React",
+    link_netlify: "https://weatherappreactvohid.netlify.app/",
+    link_code: "https://github.com/Vohidbek88/weatherapp.git",
+  },
+  {
+    img_src: './img/reacttodo.png',
+    title: "React to do app.",
+    description: "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
+    tech_stack: "React",
+    link_netlify: "https://todolistreactvohid.netlify.app/",
+    link_code: "https://github.com/Vohidbek88/reacttodolist.git",
+  },
+  {
+    img_src: './img/todojs.png',
+    title: "Javascript to do. ",
+    description: "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
+    tech_stack: "Javascript",
+    link_netlify: "https://jstodolistvohid.netlify.app/",
+    link_code: "https://github.com/Vohidbek88/jstodolist.git",
+  },
+  {
+    img_src: './img/smalltube.png',
+    title: "YouTube small version.",
+    description: "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
+    tech_stack: "React Material UI",
+    link_netlify: "https://smalltube.netlify.app",
+    link_code: "https://github.com/Vohidbek88/MiniTube.git",
+  },
 ]
