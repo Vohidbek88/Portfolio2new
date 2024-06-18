@@ -41,7 +41,6 @@ body {
   visibility: visible;
   transform: translateY(0px);
 } 
-
 .container {
   width: 90vw;
   margin: 0 auto;
@@ -73,7 +72,11 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
+.flex-my{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
 .menu_bar {
   display: none;
 }
@@ -116,8 +119,8 @@ body {
 
 /* //// */
 .my-skills {
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .my-skills,
@@ -316,6 +319,14 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .i-about.loaded,
+.my-skills.loaded,
+.my-works.loaded,
+.contact.loaded{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+} 
   .nav-ul {
     display: none;
   }

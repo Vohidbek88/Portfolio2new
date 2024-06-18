@@ -104,10 +104,10 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
     /////animatsiya
-    const i_about= document.getElementById('i-about')
-const my_skills = document.getElementById('my-skills')
-const my_works = document.getElementById('my-works')
-const contact=document.getElementById('contact')
+    let i_about= document.getElementById('i-about')
+let my_skills = document.getElementById('my-skills')
+let my_works = document.getElementById('my-works')
+let contact=document.getElementById('contact')
 
 
 
@@ -116,7 +116,7 @@ const options = {
     threshold: 0.3
 }
 
-const observer = new IntersectionObserver(
+let observer = new IntersectionObserver(
     callbackFunction,
     options
 )
@@ -140,7 +140,7 @@ function callbackFunction(enteries) {
             if (entry.target.id === 'contact') {
                 entry.target.classList.add('loaded')
             }
-            // observer.unobserve(entry.target)
+            observer.unobserve(entry.target)
         }
     })
 }
