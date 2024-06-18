@@ -102,6 +102,54 @@ document.addEventListener('DOMContentLoaded', () => {
 
         })
     })
+
+    /////animatsiya
+    const i_about= document.getElementById('i-about')
+const my_skills = document.getElementById('my-skills')
+const my_works = document.getElementById('my-works')
+const contact=document.getElementById('contact')
+
+
+
+const options = {
+    rootMargin: '100px',
+    threshold: 0.3
+}
+
+const observer = new IntersectionObserver(
+    callbackFunction,
+    options
+)
+function callbackFunction(enteries) {
+    enteries.forEach(entry => {
+        if (entry.isIntersecting) {
+            console.log(entry);
+          
+            if (entry.target.id === 'i-about') {
+                entry.target.classList.add('loaded')
+            }
+
+            if (entry.target.id === 'my-skills') {
+                entry.target.classList.add('loaded')
+            }
+
+            if (entry.target.id === 'my-works') {
+                entry.target.classList.add('loaded')
+            }
+
+            if (entry.target.id === 'contact') {
+                entry.target.classList.add('loaded')
+            }
+            // observer.unobserve(entry.target)
+        }
+    })
+}
+
+
+observer.observe(i_about)
+observer.observe(my_skills)
+observer.observe(my_works)
+observer.observe(contact)
 })
 
 
