@@ -113,7 +113,7 @@ let contact=document.getElementById('contact')
 
 const options = {
     rootMargin: '100px',
-    threshold: 0.3
+    threshold: 0.2
 }
 
 let observer = new IntersectionObserver(
