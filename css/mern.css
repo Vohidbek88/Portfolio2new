@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(green,red,yellow);
+}
+
+h2{
+    color: white;
+}
+
+.card{
+    color: aliceblue;
+    padding: 0.4rem;
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0.815);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.grid-container{
+    width: 90%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 15px;
+    justify-content: center;
+}
+a{
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 14px;
+    background-color: gray;
+    border-radius: 12px;
+}
+.main{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+.mern-head{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-mern{
+    width: 90%;
+    margin: 20px auto;
+}
+.info-mern p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 18px;
+}
